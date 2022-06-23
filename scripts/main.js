@@ -1,11 +1,4 @@
-import { getFish } from './database.js'
-import { FishList } from './FishList.js'
-
-const allFish = getFish();
-
-for (const fish of allFish) {
-    console.log(fish);
-}
+import { FishList } from './fish/FishList.js'
 
 /*
     What is the CSS selector for the element where you
